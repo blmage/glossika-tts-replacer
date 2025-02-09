@@ -96,71 +96,71 @@ The list is out of date? Please open an [issue](https://github.com/blmage/glossi
 
 | Language | Key (Glossika) | Code (ElevenLabs) |
 | --- |----------------|------------------ |
-| Arabic (Egyptian) | arz-sd | Not Supported |
-| Arabic (Standard) | arb-sd | Not Supported |
-| Armenian (Eastern) | hye-sd | Not Supported |
-| Azerbaijani | azj-sd | Not Supported |
-| Belarusian | bel-sd | Not Supported |
-| Bengali (India) | ben-in | Not Supported |
-| Bulgarian | bul-sd | bul |
-| Cantonese (HK) | yue-hk | Not Supported |
-| Catalan | cat-sd | Not Supported |
-| Chinese (Beijing) | cmn-cn | zh |
-| Chinese (Taiwan) | cmn-tw | zh |
-| Croatian | hrv-sd | hr |
-| Czech | ces-sd | cs |
-| Danish | dan-sd | da |
-| Dutch | nld-sd | nl |
-| English (UK) | eng-gb | en-gb |
-| English (US) | eng-us | en-us |
-| Estonian | ekk-sd | Not Supported |
-| Finnish (SW dialect) | fin-sout2677 | fi |
-| French | fra-sd | fr |
-| Gaelic | gla-sd | Not Supported |
-| Georgian | kat-sd | Not Supported |
-| German | deu-sd | de |
-| Greek (Modern) | ell-sd | el |
-| Hakka (Hailu) | hak-hl | Not Supported |
-| Hakka (Sixian) | hak-sx | Not Supported |
-| Hebrew | heb-sd | Not Supported |
-| Hindi | hin-sd | hi |
-| Hungarian | hun-sd | hu |
-| Icelandic | isl-sd | Not Supported |
-| Indonesian | ind-sd | id |
-| Irish | gle-co | Not Supported |
-| Italian | ita-sd | it |
-| Japanese | jpn-sd | ja |
-| Kazakh | kaz-sd | Not Supported |
-| Korean | kor-sd | ko |
-| Kurdish (Sorani) | ckb-sd | Not Supported |
-| Latvian | lav-sd | Not Supported |
-| Lithuanian | lit-sd | Not Supported |
-| Manx | glv-sd | Not Supported |
-| Mongolian | khk-sd | Not Supported |
-| Moroccan Arabic | ary-sd | Not Supported |
-| Norwegian (Nynorsk) | nno-sd | no |
-| Persian | pes-sd | Not Supported |
-| Polish | pol-sd | pl |
-| Portuguese (Brazil) | por-br | pt-br |
-| Portuguese (European) | por-pt | pt |
-| Russian | rus-sd | ru |
-| Serbian (Ekavian) | srp-ek | Not Supported |
-| Slovak | slk-sd | sk |
-| Slovene | slv-sd | Not Supported |
-| Spanish (Mexico) | spa-mx | es-mx |
-| Spanish (Spain) | spa-es | es |
-| Swahili | swa-sd | Not Supported |
-| Swedish | swe-sd | sv |
-| Tagalog | tgl-sd | fil |
-| Taiwanese Hokkien | nan-tw | Not Supported |
-| Thai | tha-sd | th |
-| Turkish | tur-sd | tr |
-| Ukrainian | ukr-sd | uk |
-| Uzbek | uzn-sd | Not Supported |
-| Vietnamese (Northern) | vie-hn | vi |
-| Vietnamese (Southern) | vie-sg | vi |
-| Welsh | cym-sd | Not Supported |
-| Wenzhounese (Wu) | wuu-wz | Not Supported |
+| Arabic (Egyptian) | `arz-sd` | Not Supported |
+| Arabic (Standard) | `arb-sd` | Not Supported |
+| Armenian (Eastern) | `hye-sd` | Not Supported |
+| Azerbaijani | `azj-sd` | Not Supported |
+| Belarusian | `bel-sd` | Not Supported |
+| Bengali (India) | `ben-in` | Not Supported |
+| Bulgarian | `bul-sd` | `bul` |
+| Cantonese (HK) | `yue-hk` | Not Supported |
+| Catalan | `cat-sd` | Not Supported |
+| Chinese (Beijing) | `cmn-cn` | `zh` |
+| Chinese (Taiwan) | `cmn-tw` | `zh` |
+| Croatian | `hrv-sd` | `hr` |
+| Czech | `ces-sd` | `cs` |
+| Danish | `dan-sd` | `da` |
+| Dutch | `nld-sd` | `nl` |
+| English (UK) | `eng-gb` | `en-gb` |
+| English (US) | `eng-us` | `en-us` |
+| Estonian | `ekk-sd` | Not Supported |
+| Finnish (SW dialect) | `fin-sout2677` | `fi` |
+| French | `fra-sd` | `fr` |
+| Gaelic | `gla-sd` | Not Supported |
+| Georgian | `kat-sd` | Not Supported |
+| German | `deu-sd` | `de` |
+| Greek (Modern) | `ell-sd` | `el` |
+| Hakka (Hailu) | `hak-hl` | Not Supported |
+| Hakka (Sixian) | `hak-sx` | Not Supported |
+| Hebrew | `heb-sd` | Not Supported |
+| Hindi | `hin-sd` | `hi` |
+| Hungarian | `hun-sd` | `hu` |
+| Icelandic | `isl-sd` | Not Supported |
+| Indonesian | `ind-sd` | `id` |
+| Irish | `gle-co` | Not Supported |
+| Italian | `ita-sd` | `it` |
+| Japanese | `jpn-sd` | `ja` |
+| Kazakh | `kaz-sd` | Not Supported |
+| Korean | `kor-sd` | `ko` |
+| Kurdish (Sorani) | `ckb-sd` | Not Supported |
+| Latvian | `lav-sd` | Not Supported |
+| Lithuanian | `lit-sd` | Not Supported |
+| Manx | `glv-sd` | Not Supported |
+| Mongolian | `khk-sd` | Not Supported |
+| Moroccan Arabic | `ary-sd` | Not Supported |
+| Norwegian (Nynorsk) | `nno-sd` | `no` |
+| Persian | `pes-sd` | Not Supported |
+| Polish | `pol-sd` | `pl` |
+| Portuguese (Brazil) | `por-br` | `pt-br` |
+| Portuguese (European) | `por-pt` | `pt` |
+| Russian | `rus-sd` | `ru` |
+| Serbian (Ekavian) | `srp-ek` | Not Supported |
+| Slovak | `slk-sd` | `sk` |
+| Slovene | `slv-sd` | Not Supported |
+| Spanish (Mexico) | `spa-mx` | `es-mx` |
+| Spanish (Spain) | `spa-es` | `es` |
+| Swahili | `swa-sd` | Not Supported |
+| Swedish | `swe-sd` | `sv` |
+| Tagalog | `tgl-sd` | `fil` |
+| Taiwanese Hokkien | `nan-tw` | Not Supported |
+| Thai | `tha-sd` | `th` |
+| Turkish | `tur-sd` | `tr` |
+| Ukrainian | `ukr-sd` | `uk` |
+| Uzbek | `uzn-sd` | Not Supported |
+| Vietnamese (Northern) | `vie-hn` | `vi` |
+| Vietnamese (Southern) | `vie-sg` | `vi` |
+| Welsh | `cym-sd` | Not Supported |
+| Wenzhounese (Wu) | `wuu-wz` | Not Supported |
 
 ---
 
