@@ -1,0 +1,6 @@
+{
+  "name": "Glossika TTS Replacer",
+  "include": [
+    "https://ai.glossika.com/*"
+  ]
+}

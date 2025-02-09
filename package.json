@@ -1,0 +1,27 @@
+{
+  "name": "glossika-tts-replacer",
+  "version": "1.0.0",
+  "description": "Replaces Glossika TTS with custom TTS generated using the ElevenLabs API.",
+  "main": "src/index.js",
+  "type": "module",
+  "repository": "http://github.com/blmage/glossika-tts-replacer",
+  "author": "blmage",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c --environment production"
+  },
+  "dependencies": {
+    "dexie": "^4.0.11",
+    "elevenlabs-client": "^0.0.13",
+    "lodash.isfunction": "^3.0.9",
+    "lodash.isstring": "^4.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-replace": "^6.0.2",
+    "rollup": "^4.34.1",
+    "rollup-plugin-userscript-metablock": "^0.4.2",
+    "yup": "^1.6.1"
+  }
+}

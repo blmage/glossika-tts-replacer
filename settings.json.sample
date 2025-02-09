@@ -1,0 +1,16 @@
+{
+  "api_key": "[your_api_key]",
+  "languages": {
+    "vie-hn": {
+      "modelId": "eleven_flash_v2_5",
+      "voice": "XBDAUT8ybuJTTCoOLSUj",
+      "languageCode": "vi",
+      "voiceSettings": {
+        "stability": 1.0,
+        "similarityBoost": 0.5,
+        "style": 0,
+        "useSpeakerBoost": true
+      }
+    }
+  }
+}
