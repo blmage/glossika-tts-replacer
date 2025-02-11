@@ -1,6 +1,6 @@
 {
   "name": "glossika-tts-replacer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Replaces Glossika TTS with custom TTS generated using the ElevenLabs API.",
   "main": "src/index.js",
   "type": "module",
