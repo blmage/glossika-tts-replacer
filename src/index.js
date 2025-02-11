@@ -16,11 +16,13 @@ const LANGUAGE_SENTENCE_NORMALIZERS = {
 const SESSION_MAIN_CONTAINER_SELECTOR = 'main.glossika-main';
 
 const TARGET_SENTENCE_WRAPPER_SELECTORS = [
-  '#session-new-sentence-tar'
+  '#session-new-sentence-tar',
+  '#session-review-sentence-tar',
 ];
 
 const CURRENT_TARGET_AUDIO_SELECTORS = [
   '#session-new-media-tar audio',
+  '#session-review-media-tar audio',
 ];
 
 // eslint-disable-next-line no-undef
@@ -50,6 +52,8 @@ Audio.prototype.play = async function () {
       sentencePlaybackCounts[sentence] = playbackIx;
 
       let ttsSource;
+      const volume = this.volume;
+      const playbackRate = this.playbackRate;
 
       try {
         const normalizer = LANGUAGE_SENTENCE_NORMALIZERS[language];
@@ -64,13 +68,13 @@ Audio.prototype.play = async function () {
 
         ttsSource = await sentenceTtsPromises[sentence];
       } catch (error) {
-        // Let's just play the original TTS.
-        ttsSource = null;
+        sentenceTtsPromises[sentence] = null;
+
+        // Let Glossika app handle the error (it currently asks the user what to do, reload or skip).
+        return Promise.reject();
       }
 
       if (ttsSource) {
-        const volume = this.volume;
-        const playbackRate = this.playbackRate;
         this.src = 'data:audio/mp3;base64,' + ttsSource;
         await this.load();
         this.volume = volume;
